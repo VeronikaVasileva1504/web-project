@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #8ABDED; /* Цвят на хедъра */
+    color: #F6E7BC; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #FF2929; /* Промяна на цвета при hover */
+}
+
+.logo img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+/* kopirai do tuk*/
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.additional-info {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Цвят на заден фон */
+    padding: 20px;
+    background-color: #8ABDED;
+    color: #fff; /* Цвят на текста */
+    position: relative;
+}
+
+.additional-info blockquote {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.additional-info p {
+    margin: 5px 0;
+}
+
+.image-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    width: 50%; /* Променено на 50% */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    width: 50%; /* Променено на 50% */
+    padding: 20px; /* Пример: добавете подходящ отстъп за текста */
+}
+
+.italic-text {
+    font-style: italic; /* Наклонен стил на текста */
+}

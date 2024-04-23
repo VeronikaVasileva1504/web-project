@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #8ABDED; /* Цвят на хедъра */
+    color: #F6E7BC; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #FF2929; /* Промяна на цвета при hover */
+}
+
+.logo img {
+    max-width: 70%;
+    height: auto;
+}
+
+/* Стилове за раздела "За нас" */
+
+body {
+    font-family: cursive;
+    background-color: #FEFAE0;
+}
+
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-us-content {
+    flex: 1;
+    padding: 0 13px; /* Смалете отстъпа на текста от страните */
+    text-align: left;
+    font-size: 28px; /* Смалете размера на шрифта според вашите нужди */
+    color: #669ACB;
+}
+
+.about-us-image {
+    max-width: 40%; /* Намалете максималната ширина на картинката */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    align-self: flex-start; /* Поместете картинката в горната част на контейнера */
+}
+
+.about-us-image img {
+    width: 98%; /* Настройте ширината на изображението на 100% от родителя му */
+}
+
+.about-us-image:hover {
+    transform: scale(1.1); /* Увеличение на картинката при hover */
+}
+
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+    color: #669ACB;
+}
+
+.map-image {
+    max-width: 100%;
+    height: auto;
+    color: #669ACB;
+}
+
+/* Стилове за допълнителни картинки */
+.hover-image {
+    height: 500px; /* Променете тази стойност според вашите нужди */
+}
+
+/* Стилове за втората и третата картинка */
+.about-us-image2 {
+    flex: 1;
+    max-width: 45%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.about-us-image2:hover
+{
+    transform: scale(1.1);
+}
+

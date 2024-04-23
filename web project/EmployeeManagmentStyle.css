@@ -1,0 +1,247 @@
+body {
+    background-color: #e3d6a8d2;
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F2DEB0; /* Цвят на хедъра */
+    color: #5B8E2D; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #FF2929; /* Промяна на цвета при hover */
+}
+
+
+
+/* Добавени стилове за .employees-section */
+.employees-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #CB9173; /* Цвят на фона на секцията със служителите */
+}
+
+.employees-section h2 {
+    color: #8564b0da; /* Цвят на заглавието на секцията със служителите */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employees-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employees-section th, .employees-section td {
+    border: 1px solid #CB9173;
+    padding: 10px;
+    text-align: center;
+}
+
+.employees-section th {
+    background-color: #CB9173; /* Цвят на фона на заглавните клетки */
+    color: white;
+}
+
+/* Добавени стилове за .roles-section */
+.roles-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255 242 214 / 93%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.roles-section h2 {
+    color: #488eacd5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.roles-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.roles-section th, .roles-section td {
+    border: 1px solid #5e90f4ce;
+    padding: 10px;
+    text-align: center;
+}
+
+.roles-section th {
+    background-color: #2185adf0; /* Цвят на фона на заглавните клетки */
+    color: white;
+}
+.employees-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255 242 214 / 93%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employees-section h2 {
+    color: #7a5ba4ab;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employees-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employees-section th, .employees-section td {
+    border: 1px solid #9d89ce;
+    padding: 10px;
+    text-align: center;
+}
+
+.employees-section th {
+    background-color: #bba4e197;
+    color: white;
+}
+
+/* Стилизиране на контейнера с данни за потребителите */
+.users-data {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255 242 214 / 93%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилизиране на заглавието на контейнера */
+.users-data h2 {
+    color: #b51a57c7;
+    text-align: center;
+}
+
+/* Стилизиране на таблицата */
+.users-data table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Стилизиране на заглавния ред на таблицата */
+.users-data th {
+    background-color: #a53380a1;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Стилизиране на всеки ред с данни в таблицата */
+.users-data td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Смяна на фона на всеки втори ред за по-добра четимост */
+.users-data tr:nth-child(even) {
+    background-color: #e1a5c836;
+}
+
+/* Стилизиране на ячейките с User ID */
+.users-data td:first-child {
+    font-weight: bold;
+    color: #1d2525;
+}
+
+
+
+/* Стилове за секцията с професии */
+.roles-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255 242 214 / 93%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.roles-section h2 {
+    color: #72bcdaba;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.roles-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.roles-section th, .roles-section td {
+    border: 1px solid #4ca0ca;
+    padding: 10px;
+    text-align: center;
+}
+
+.roles-section th {
+    background-color: #7caed7ce;
+    color: white;
+}
+
+/* Стилове за формите за добавяне и премахване */
+.add_profesion, .remove_profesion, .add_employee, .remove_employee {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255 242 214 / 93%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.add_profesion h2, .remove_profesion h2, .add_employee h2, .remove_employee h2 {
+    text-align: center;
+    color: #286d6bc3;
+}
+.add_profesion button, .remove_profesion button, .add_employee button, .remove_employee button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #0d594ab0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add_profesion button:hover, .remove_profesion button:hover, .add_employee button:hover, .remove_employee button:hover {
+    background-color: #4abaa29c;
+}

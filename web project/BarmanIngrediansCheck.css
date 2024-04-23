@@ -1,0 +1,89 @@
+body {
+    background-color: #F2DEB0;
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F2DEB0; /* Цвят на хедъра */
+    color: #5B8E2D; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #FF2929; /* Промяна на цвета при hover */
+}
+
+
+/* Animation for form containers */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.add_ingredient,
+.remove_ingredient,
+.edit_ingredient {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.5s ease forwards;
+}
+
+/* Animation for form elements */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.add_ingredient form,
+.remove_ingredient form,
+.edit_ingredient form {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease forwards;
+}
+

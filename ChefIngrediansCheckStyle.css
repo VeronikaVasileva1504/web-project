@@ -1,0 +1,198 @@
+body {
+    background-color: #F2DEB0;
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F2DEB0; /* Цвят на хедъра */
+    color: #5B8E2D; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #FF2929; /* Промяна на цвета при hover */
+}
+
+/* Добавени стилове за .employees-section */
+.employees-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #CB9173; /* Цвят на фона на секцията със служителите */
+}
+
+.employees-section h2 {
+    color: #CB9173; /* Цвят на заглавието на секцията със служителите */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employees-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employees-section th, .employees-section td {
+    border: 1px solid #CB9173;
+    padding: 10px;
+    text-align: center;
+}
+
+.employees-section th {
+    background-color: #CB9173; /* Цвят на фона на заглавните клетки */
+    color: white;
+}
+
+/* Добавени стилове за .roles-section */
+.roles-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #efba8c; /* Цвят на фона на секцията с професии */
+}
+
+.roles-section h2 {
+    color: #de3e22; /* Цвят на заглавието на секцията с професии */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.roles-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.roles-section th, .roles-section td {
+    border: 1px solid #d47c0a;
+    padding: 10px;
+    text-align: center;
+}
+
+.roles-section th {
+    background-color: #d37d30; /* Цвят на фона на заглавните клетки */
+    color: white;
+}
+.employees-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f3ede6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employees-section h2 {
+    color: #c9660ef2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employees-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employees-section th, .employees-section td {
+    border: 1px solid  #e16e1c;
+    padding: 10px;
+    text-align: center;
+}
+
+.employees-section th {
+    background-color: #d37d30;
+    color: white;
+}
+
+
+/* Стилове за секцията с професии */
+.roles-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.roles-section h2 {
+    color: #dcb700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.roles-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.roles-section th, .roles-section td {
+    border: 1px solid #dcb700;
+    padding: 10px;
+    text-align: center;
+}
+
+.roles-section th {
+    background-color: #dcb700;
+    color: white;
+}
+
+/* Стилове за формите за добавяне и премахване */
+.add_ingreadians, .remove_ingreadians, .redact_ingreadians {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: left; /* Нов ред за изравняване в ляво */
+}
+
+.add_ingreadians h2, .remove_ingreadians h2, .redact_ingreadians h2 {
+    text-align: center;
+    color: #e15d0d;
+}
+
+.add_ingreadians button, .remove_ingreadians button, .redact_ingreadians button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #d43b0d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add_ingreadians button:hover, .remove_ingreadians button:hover, .redact_ingreadians button:hover {
+    background-color: #ed945c9e;
+}
+

@@ -1,0 +1,154 @@
+body {
+    background-color: #dccba3cb;
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F2DEB0; /* Цвят на хедъра */
+    color: #5B8E2D; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #FF2929; /* Промяна на цвета при hover */
+}
+
+/* Basic Reset */
+/* Basic Reset */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+
+  /* Additional styling for the close button */
+  .close-btn {
+    margin-top: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdefbd8f;
+    
+  }
+  
+  .add_dish, .edit_dish, .delete_dish, .add_category, .delete_category, .dish-list, .category-list {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #ca8d00;
+    margin-bottom: 20px;
+    font-size: 35px; /* Adjust the font size as needed */
+  }
+  
+  form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 23px; /* Adjust the font size as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #8e0000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ac1313d3;
+  }
+  
+  /* Animations */
+  .add_dish,
+  .edit_dish,
+  .delete_dish,
+  .add_category,
+  .delete_category,
+  .dish-list,
+  .category-list {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  

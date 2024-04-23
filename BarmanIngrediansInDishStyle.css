@@ -1,0 +1,146 @@
+body {
+    background-color: #F2DEB0;
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F2DEB0; /* Цвят на хедъра */
+    color: #5B8E2D; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #3d8edf; /* Промяна на цвета при hover */
+}
+
+
+
+.recipe-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-form {
+    text-align: center;
+}
+
+h2 {
+    color: #4091ff;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #074ca0;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.panel-around-button {
+    text-align: center;
+}
+
+button {
+    background-color: #3081d9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4e83bcd2;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Приложи анимации на панела */
+.recipe-form-container {
+    animation: fadeIn 0.5s ease;
+}
+.select-container {
+    position: relative;
+    margin: 5px 0 15px 0;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 22px; /* Увеличете размера на шрифта за падащото меню */
+}
+
+/* Ако искате еднакъв размер на шрифта за етикета и падащото меню */
+label, select {
+    font-size: 22px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 22px; /* Увеличете размера на шрифта за текстовото поле */
+    resize: vertical; /* Разрешаване на вертикално изменение на размера на текстовото поле */
+}
+

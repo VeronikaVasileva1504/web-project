@@ -1,0 +1,111 @@
+body {
+    background-color: #FEFAE0;
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #8ABDED; /* Цвят на хедъра */
+    color: #F6E7BC; /* Цвят на текста в хедъра */
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Центриране на опциите по вертикала */
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Цвят на връзките в менюто */
+    font-size: 28px; /* Увеличаване на големината на текста в менюто */
+    font-style: italic; /* Наклонен стил на текста */
+    transition: font-size 0.3s ease, color 0.3s ease; /* Анимация за големината на шрифта и цвета */
+}
+
+.menu a:hover {
+    font-size: 35px; /* Увеличаване на големината на шрифта при hover */
+    color: #FF2929; /* Промяна на цвета при hover */
+}
+
+.logo img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+    .reservation-form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff3c9;
+        text-align: center; /* Нов стил - центриране на текста */
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .reservation-form h2 {
+        text-align: center;
+        color: #d82417;
+    }
+
+    .reservation-form label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .reservation-form input,
+    .reservation-form select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    .reservation-form input[type="submit"] {
+        background-color: #c02323;
+        color: white;
+        cursor: pointer;
+        padding: 10px; /* Променете размера според вашите предпочитания */
+        width: 50%; /* Променете размера според вашите предпочитания */
+        margin: 0 auto; /* Центриране на бутона */
+    }
+
+    .reservation-form input[type="submit"]:hover {
+        background-color: #cb3120;
+    }
+
+    /* Допълнителен стил за подобряване на изберете (select) */
+    .reservation-form select {
+        appearance: none;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Допълнителен стил за подобряване на курсора при хоувър върху изберете (select) */
+    .reservation-form select:hover {
+        border-color: #d63408f1;
+    }
+
+
